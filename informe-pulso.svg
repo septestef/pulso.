@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350" role="img" aria-labelledby="title desc">
+  <title id="title">PULSO: un momento para vos</title>
+  <desc id="desc">Infografía sobre el recorrido de PULSO: puntuar el día, recibir recomendaciones, elegir una actividad, dejar una nota y consultar el historial o escribir cartas.</desc>
+  <defs>
+    <linearGradient id="sunrise" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff8d9"/><stop offset="1" stop-color="#fff0f7"/></linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#29232b" flood-opacity=".07"/></filter>
+    <style>
+      .ink{fill:#29232b}.muted{fill:#736b74}.mag{fill:#aa005d}.yellow{fill:#fac505}.card{fill:#fff;stroke:#ede7ec;stroke-width:2}
+      .sans{font-family:Arial,Helvetica,sans-serif}.rounded{font-family:'Arial Rounded MT Bold',Arial,Helvetica,sans-serif}
+    </style>
+  </defs>
+  <rect width="1080" height="1350" fill="#fffdf8"/>
+  <circle cx="1000" cy="140" r="155" fill="#fac505" opacity=".12"/>
+  <circle cx="50" cy="1060" r="180" fill="#fa0590" opacity=".035"/>
+
+  <!-- Brand and report label -->
+  <g transform="translate(70 58)">
+    <rect width="50" height="50" rx="17" fill="#fac505"/>
+    <path d="M25 10v30M12 17.5l26 15M38 17.5l-26 15" fill="none" stroke="#29232b" stroke-width="4" stroke-linecap="round"/>
+    <text x="64" y="36" class="rounded ink" font-size="34" font-weight="700" letter-spacing="-1.5">pulso.</text>
+  </g>
+  <g transform="translate(790 65)">
+    <rect width="220" height="38" rx="19" fill="#fff0f7"/>
+    <circle cx="20" cy="19" r="5" fill="#aa005d"/>
+    <text x="36" y="24" class="sans mag" font-size="13" font-weight="700" letter-spacing="1.2">BIENESTAR COTIDIANO</text>
+  </g>
+
+  <!-- Hero -->
+  <text x="70" y="190" class="sans mag" font-size="15" font-weight="700" letter-spacing="2">UNA PAUSA PARA ESCUCHARTE</text>
+  <text x="66" y="259" class="rounded ink" font-size="58" font-weight="700" letter-spacing="-2">Un momento para vos.</text>
+  <text x="70" y="305" class="sans muted" font-size="20">Registrá cómo te sentís y encontrá pequeños gestos para acompañar tu día.</text>
+
+  <!-- Flow cards -->
+  <g filter="url(#shadow)">
+    <rect x="70" y="365" width="280" height="322" rx="26" class="card"/>
+    <rect x="400" y="365" width="280" height="322" rx="26" class="card"/>
+    <rect x="730" y="365" width="280" height="322" rx="26" class="card"/>
+  </g>
+  <g>
+    <rect x="92" y="389" width="48" height="28" rx="14" fill="#fac505"/><text x="116" y="408" text-anchor="middle" class="sans ink" font-size="13" font-weight="700">01</text>
+    <text x="92" y="457" class="rounded ink" font-size="24" font-weight="700">Poné en palabras</text>
+    <text x="92" y="488" class="sans muted" font-size="16">Elegí un número del 1 al 10</text>
+    <text x="92" y="512" class="sans muted" font-size="16">que refleje cómo estuvo tu día.</text>
+    <rect x="92" y="548" width="236" height="93" rx="20" fill="#fff8d9"/>
+    <text x="108" y="572" class="sans muted" font-size="12" font-weight="700" letter-spacing=".8">TU PUNTUACIÓN</text>
+    <g class="sans" font-size="15" font-weight="700" text-anchor="middle">
+      <circle cx="116" cy="608" r="17" fill="#fff"/><text x="116" y="613" class="ink">4</text>
+      <circle cx="158" cy="608" r="17" fill="#fac505"/><text x="158" y="613" class="ink">6</text>
+      <circle cx="200" cy="608" r="17" fill="#fff"/><text x="200" y="613" class="ink">7</text>
+      <circle cx="242" cy="608" r="17" fill="#fff"/><text x="242" y="613" class="ink">8</text>
+      <circle cx="284" cy="608" r="17" fill="#fff"/><text x="284" y="613" class="ink">9</text>
+    </g>
+    <text x="92" y="665" class="sans muted" font-size="13">Una vez por día; podés editarla.</text>
+  </g>
+
+  <g>
+    <rect x="422" y="389" width="48" height="28" rx="14" fill="#fff0f7"/><text x="446" y="408" text-anchor="middle" class="sans mag" font-size="13" font-weight="700">02</text>
+    <text x="422" y="457" class="rounded ink" font-size="24" font-weight="700">Recibí ideas</text>
+    <text x="422" y="488" class="sans muted" font-size="16">Las sugerencias acompañan</text>
+    <text x="422" y="512" class="sans muted" font-size="16">tu puntuación, sin exigencias.</text>
+    <rect x="422" y="548" width="236" height="93" rx="18" fill="#fff0f7"/>
+    <circle cx="448" cy="579" r="12" fill="#fac505"/>
+    <path d="M448 573v12m-5-9 10 6m0-6-10 6" stroke="#29232b" stroke-width="1.7" stroke-linecap="round"/>
+    <text x="469" y="582" class="sans ink" font-size="14" font-weight="700">Una pausa para vos</text>
+    <text x="442" y="610" class="sans muted" font-size="13">Pequeños gestos para mañana</text>
+    <text x="422" y="665" class="sans muted" font-size="13">Elegí solo lo que te sirva.</text>
+  </g>
+
+  <g>
+    <rect x="752" y="389" width="48" height="28" rx="14" fill="#fac505"/><text x="776" y="408" text-anchor="middle" class="sans ink" font-size="13" font-weight="700">03</text>
+    <text x="752" y="457" class="rounded ink" font-size="24" font-weight="700">Elegí tu paso</text>
+    <text x="752" y="488" class="sans muted" font-size="16">Marcá las actividades que</text>
+    <text x="752" y="512" class="sans muted" font-size="16">querés intentar al día siguiente.</text>
+    <rect x="752" y="548" width="236" height="93" rx="18" fill="#f8f6f8"/>
+    <rect x="772" y="568" width="19" height="19" rx="6" fill="#fa0590"/>
+    <path d="m777 577 4 4 7-8" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="803" y="582" class="sans ink" font-size="14" font-weight="700">Caminata corta</text>
+    <text x="772" y="613" class="sans muted" font-size="13">15 min · a tu ritmo</text>
+    <text x="752" y="665" class="sans muted" font-size="13">También podés no elegir.</text>
+  </g>
+  <g fill="none" stroke="#aa005d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M362 526h25m-8-8 8 8-8 8"/><path d="M692 526h25m-8-8 8 8-8 8"/>
+  </g>
+
+  <!-- Day note -->
+  <rect x="70" y="720" width="940" height="128" rx="25" fill="url(#sunrise)" stroke="#f0e3d1" stroke-width="1.5"/>
+  <circle cx="122" cy="784" r="29" fill="#fac505"/>
+  <path d="M111 774h22v17h-12l-7 6v-6h-3z" fill="none" stroke="#29232b" stroke-width="2.5" stroke-linejoin="round"/>
+  <text x="170" y="766" class="sans mag" font-size="13" font-weight="700" letter-spacing="1.3">TAMBIÉN PODÉS ANOTAR</text>
+  <text x="170" y="801" class="rounded ink" font-size="24" font-weight="700">Una nota del día, en 20 caracteres.</text>
+  <rect x="701" y="756" width="270" height="56" rx="16" fill="#fff" stroke="#ede7ec"/>
+  <text x="721" y="791" class="sans ink" font-size="18" font-weight="700">6</text>
+  <path d="M749 774v22" stroke="#ede7ec" stroke-width="2"/>
+  <text x="768" y="791" class="sans mag" font-size="17">Vi a mis amigxs</text>
+  <text x="952" y="791" class="sans muted" font-size="11" text-anchor="end">16/20</text>
+
+  <!-- Ongoing support -->
+  <text x="70" y="913" class="rounded ink" font-size="29" font-weight="700">Un espacio para volver a vos</text>
+  <g filter="url(#shadow)">
+    <rect x="70" y="944" width="450" height="177" rx="24" class="card"/>
+    <rect x="560" y="944" width="450" height="177" rx="24" class="card"/>
+  </g>
+  <g>
+    <rect x="94" y="969" width="50" height="50" rx="16" fill="#fff8d9"/>
+    <path d="M106 1006v-17h26v17m-22-6 6-6 5 4 7-8" fill="none" stroke="#725500" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="162" y="990" class="rounded ink" font-size="21" font-weight="700">Historial</text>
+    <text x="162" y="1018" class="sans muted" font-size="15">Revisá tus días y compromisos</text>
+    <text x="162" y="1041" class="sans muted" font-size="15">para observar tu recorrido.</text>
+    <path d="M101 1072h385" stroke="#ede7ec" stroke-width="2"/>
+    <circle cx="119" cy="1087" r="5" fill="#aa005d"/><circle cx="171" cy="1081" r="5" fill="#aa005d"/><circle cx="223" cy="1092" r="5" fill="#aa005d"/><circle cx="275" cy="1079" r="5" fill="#aa005d"/><circle cx="327" cy="1085" r="5" fill="#aa005d"/>
+    <path d="m119 1087 52-6 52 11 52-13 52 6" fill="none" stroke="#fa0590" stroke-width="2"/>
+  </g>
+  <g>
+    <rect x="584" y="969" width="50" height="50" rx="16" fill="#fff0f7"/>
+    <path d="M597 982h24a3 3 0 0 1 3 3v17a3 3 0 0 1-3 3h-12l-8 6v-6h-4a3 3 0 0 1-3-3v-17a3 3 0 0 1 3-3z" fill="none" stroke="#aa005d" stroke-width="2.4" stroke-linejoin="round"/>
+    <path d="M603 990h13m-13 7h9" stroke="#aa005d" stroke-width="2" stroke-linecap="round"/>
+    <text x="652" y="990" class="rounded ink" font-size="21" font-weight="700">Mi espacio</text>
+    <text x="652" y="1018" class="sans muted" font-size="15">Escribite cartas para leerlas</text>
+    <text x="652" y="1041" class="sans muted" font-size="15">cuando tengas ganas. Es opcional.</text>
+    <path d="M591 1072h385" stroke="#ede7ec" stroke-width="2"/>
+    <text x="591" y="1095" class="sans mag" font-size="13" font-weight="700">Un lugar privado, solo para vos.</text>
+  </g>
+
+  <!-- Privacy / offline footer -->
+  <rect x="70" y="1160" width="940" height="126" rx="24" fill="#29232b"/>
+  <circle cx="119" cy="1223" r="27" fill="#fac505"/>
+  <path d="M119 1208c-7 0-12 5-12 12v14h24v-14c0-7-5-12-12-12zm-4 12v-2a4 4 0 0 1 8 0v2" fill="none" stroke="#29232b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="166" y="1206" class="sans" fill="#fac505" font-size="13" font-weight="700" letter-spacing="1.2">SIN CUENTAS · SIN SINCRONIZACIÓN</text>
+  <text x="166" y="1236" class="sans" fill="#fff" font-size="17" font-weight="700">Tus registros se guardan en el navegador de tu dispositivo.</text>
+  <text x="166" y="1262" class="sans" fill="#d5ced6" font-size="14">PULSO puede funcionar sin conexión después de la primera carga.</text>
+  <text x="1010" y="1322" text-anchor="end" class="sans muted" font-size="12">PULSO · BIENESTAR COTIDIANO</text>
+</svg>
